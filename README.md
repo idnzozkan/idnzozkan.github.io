@@ -1,0 +1,1 @@
+# idnzozkan.github.io
