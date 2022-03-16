@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.header}>
           <div className={styles.avatarCircle}>
-            <Image className={styles.avatar} src="/images/deniz-ozkan.jpg" alt="Deniz Ozkan" width={90} height={90} />
+            <img className={styles.avatar} src="/images/deniz-ozkan.jpg" alt="Deniz Ozkan" width={90} height={90} />
           </div>
           <div className={styles.headerInfo}>
             <h1>Deniz Ozkan</h1>
@@ -30,22 +29,22 @@ export default function Home() {
         <div className={styles.socials}>
           <a href="https://github.com/idnzozkan" title="GitHub" target="_blank" rel="noreferrer">
             <div className={styles.icon}>
-              <Image src="/icons/github.svg" alt="GitHub" width={20} height={20} />
+              <img src="/icons/github.svg" alt="GitHub" width={20} height={20} />
             </div>
           </a>
           <a href="https://linkedin.com/in/idnzozkan" title="LinkedIn" target="_blank" rel="noreferrer">
             <div className={styles.icon}>
-              <Image src="/icons/linkedin.svg" alt="LinkedIn" width={20} height={20} />
+              <img src="/icons/linkedin.svg" alt="LinkedIn" width={20} height={20} />
             </div>
           </a>
           <a href="https://twitter.com/idnzozkan" title="Twitter" target="_blank" rel="noreferrer">
             <div className={styles.icon}>
-              <Image src="/icons/twitter.svg" alt="Twitter" width={20} height={20} />
+              <img src="/icons/twitter.svg" alt="Twitter" width={20} height={20} />
             </div>
           </a>
           <a href="mailto:ibrahimdenizozkan@gmail.com" title="Email" target="_blank" rel="noreferrer">
             <div className={styles.icon}>
-              <Image src="/icons/email.svg" alt="Email" width={20} height={20} />
+              <img src="/icons/email.svg" alt="Email" width={20} height={20} />
             </div>
           </a>
         </div>
