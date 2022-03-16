@@ -27,22 +27,22 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.socials}>
-          <a href="https://github.com/idnzozkan" title="GitHub" target="_blank" rel="noreferrer">
+          <a href="https://github.com/idnzozkan" title="GitHub" className={styles.iconLink} target="_blank" rel="noreferrer">
             <div className={styles.icon}>
               <img src="/icons/github.svg" alt="GitHub" width={20} height={20} />
             </div>
           </a>
-          <a href="https://linkedin.com/in/idnzozkan" title="LinkedIn" target="_blank" rel="noreferrer">
+          <a href="https://linkedin.com/in/idnzozkan" title="LinkedIn" className={styles.iconLink} target="_blank" rel="noreferrer">
             <div className={styles.icon}>
               <img src="/icons/linkedin.svg" alt="LinkedIn" width={20} height={20} />
             </div>
           </a>
-          <a href="https://twitter.com/idnzozkan" title="Twitter" target="_blank" rel="noreferrer">
+          <a href="https://twitter.com/idnzozkan" title="Twitter" className={styles.iconLink} target="_blank" rel="noreferrer">
             <div className={styles.icon}>
               <img src="/icons/twitter.svg" alt="Twitter" width={20} height={20} />
             </div>
           </a>
-          <a href="mailto:ibrahimdenizozkan@gmail.com" title="Email" target="_blank" rel="noreferrer">
+          <a href="mailto:ibrahimdenizozkan@gmail.com" title="Email" className={styles.iconLink} target="_blank" rel="noreferrer">
             <div className={styles.icon}>
               <img src="/icons/email.svg" alt="Email" width={20} height={20} />
             </div>
