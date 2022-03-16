@@ -5,7 +5,9 @@ const optimizedImages = require('next-optimized-images')
 const nextConfig = {
   images: {
     disableStaticImages: true
-  }
+  },
+  basePath: '/',
+  assetPrefix: '/'
 }
 
 const config = withPlugins(
